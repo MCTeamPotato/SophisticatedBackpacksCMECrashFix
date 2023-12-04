@@ -1,0 +1,19 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "Unlicense"
+
+[[mods]]
+modId = "sbcmefix"
+version = "${version}"
+displayName = "SophisticatedBackpacksCMECrashFix"
+authors = "TeamPotato"
+description = '''
+A Minecraft Mod.
+'''
+
+[[dependencies.sbcmefix]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
